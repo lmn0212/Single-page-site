@@ -639,10 +639,32 @@ footer{
     background-color: mediumaquamarine;
 }
 footer .text_content {
+    margin: 0 auto;
+
     width: 80%;
     height: 80px;
+
 }
 footer .text_content p {
     float: left;
-
+    line-height: 80px;
+    font-size: 18px;
+}
+footer .text_content .fast {
+    float: left;
+    line-height: 80px;
+    width: 77%;
+}
+footer .text_content .fast a {
+    float: left;
+    width: 25%;
+}
+footer .text_content .fast #tumblr {
+    margin-left: 25%;
+}
+footer .text_content h4 {
+    margin: 0;
+    float: right;
+    line-height: 80px;
+    font-size: 18px;
 }
